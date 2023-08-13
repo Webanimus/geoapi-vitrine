@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Geom Annonce</title>
+    <title>GeomAnnonce</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta
         content="GeomServices propose des solutions innovantes basées sur notre technologie GeomAPI pour valoriser et exploiter efficacement les données territoriales françaises."
@@ -65,8 +65,8 @@
 
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="https://geomservices.com/geomAlert.html" class="nav-item nav-link">Geom Alert</a>
-                    <a href="https://geomservices.com/geomAnnonce.html" class="nav-item nav-link">Geom Annonce</a>
+                    <a href="https://geomservices.com/geomAlert.html" class="nav-item nav-link">GeomAlert</a>
+                    <a href="https://geomservices.com/geomAnnonce.html" class="nav-item nav-link">GeomAnnonce</a>
                     <!-- <a href="https://geomdpe.webanimus.com" class="nav-item nav-link">GeomDPE</a> -->
                     <!-- <a href="about.html" class="nav-item nav-link">About</a> -->
                     <!-- <a href="causes.html" class="nav-item nav-link">Causes</a> -->
@@ -115,7 +115,8 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-7 pt-5">
-                                    <h1 class="display-5 text-white mb-3 animated slideInDown">Chaque agent immobilier a ses
+                                    <h1 class="display-5 text-white mb-3 animated slideInDown">Chaque agent immobilier a
+                                        ses
                                         secrets. Voici le vôtre. </h1>
                                     <p class="fs-5 text-white mb-5 animated slideInDown">Transformez la concurrence
                                         en opportunité : Identifiez les propriétaires des biens des annonces de vos
@@ -170,37 +171,75 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100 pt-5 pe-5" src=" img/about-3.jpg" alt=""
-                            style="object-fit: cover;">
-                        <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src=" img/about-4.jpg" alt=""
-                            style="width: 200px; height: 200px;">
+                        <img class="position-absolute w-100 h-100 pt-5 pe-5" src="img/adresse_approx.png" alt=""
+                            style="object-fit: scale-down;">
+                        <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="img/screenshot_maps.webp"
+                            alt="" style="width: 200px; height: 200px;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
-                        <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">À Propos</div>
-                        <h1 class="display-6 mb-5">Récupérer les adresses de potentiels vendeurs ou biens à louer</h1>
+                        <h1 class="display-6 mb-5">Les adresses approximatives, c'est fini.</h1>
+                        <p class="mb-5 text-primary">Cherchez simplement l'adresse d'une annonce immobilière parmi nos
+                            23 millions de biens référencés.</p>
+                        <p class="mb-5 text-primary">Trouvez l'adresse de 60% des maisons et 45% des appartements en
+                            quelques clics.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    <!-- About Start -->
+    <div class="container-xxl py-5 bg-light" id="about">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
+                        <img class="position-absolute w-100 h-100 pt-5 pe-5" src="img/geom-annonce.png" alt=""
+                            style="object-fit: scale-down;">
+                        <!-- <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src=" img/about-4.jpg" alt=""
+                            style="width: 200px; height: 200px;"> -->
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <!-- <div class="d-inline-block rounded-pill bg-primary text-white py-1 px-3 mb-3">À Propos</div> -->
+                        <h1 class="display-6 mb-5">3 clics, 2 secondes, 1 coup de fil</h1>
                         <!-- <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
                                 <p class="text-dark mb-2">Notre objectif est de vous proposer des données consolidées, fiabilisées,  </p>
                                 <span class="text-primary">Jhon Doe, Founder</span>
                             </div> -->
-                        <p class="mb-5 text-primary">Notre moteur de détection de bien à vendre ou à louer vous donne
-                            les adresses de ces biens. Vous pouvez alors directement les démarcher pour vos différentes
-                            activités.</p>
-                        <div class="d-flex">
-                            <!-- <a class="btn btn-primary py-2 px-3 m-1 me-3" href="{{ url_for('auth.signup') }}">
-                                Créer un compte
-                                <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                    <i class="fa fa-arrow-right"></i>
+                        <p class="mb-5 text-primary">Cherchez simplement l'adresse d'une annonce immobilière dans la
+                            plus grande base d'adresses de biens immobiliers disponible en France.</p>
+                        <ol class=" list-unstyled">
+                            <li class="d-flex">
+                                <div class="flex-grow-1 ms-3">
+                                    <h5 class="mt-0 text-primary">1. Ouvrez une annonce Le bon coin ou Seloger</h5>
+                                    <!-- <p>This is some content from a media component. You can replace this with any
+                                        content and adjust it as
+                                        needed.</p> -->
                                 </div>
-                            </a> -->
-                            <a class="btn btn-outline-primary py-2 px-3 m-1" href="https://geomservices.com#contact">
-                                Contactez-nous
-                                <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                    <i class="fa fa-arrow-right"></i>
+                            </li>
+                            <li class="d-flex">
+                                <div class="flex-grow-1 ms-3">
+                                    <h5 class="mt-0 text-primary">2. Lancez GeomAnnonce</h5>
                                 </div>
-                            </a>
-                        </div>
+                            </li>
+                            <li class="d-flex">
+                                <div class="flex-grow-1 ms-3">
+                                    <h5 class="mt-0 text-primary">3. Consultez l'adresse, l'étage et la porte du bien
+                                    </h5>
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <div class="flex-grow-1 ms-3">
+                                    <h5 class="mt-0 text-primary">4. Prenez contact avec le propriétaire par téléphone,
+                                        courrier ou porte à porte.</h5>
+                                </div>
+                            </li>
+                            </ul>
+
                     </div>
                 </div>
             </div>
@@ -209,130 +248,38 @@
     <!-- About End -->
 
 
-    <!-- Causes Start -->
-    <div class="container-fluid bg-light py-5" id="features">
+    <!-- Donate Start -->
+    <div class="container-fluid donate my-5 py-5" data-parallax="scroll" id="contact">
         <div class="container py-5">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Fonctionnalités</div>
-                <h1 class="display-6 mb-5">Accédez simplement aux résultats de nos analyses</h1>
-            </div>
-            <div class="row g-4 justify-content-center">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div
-                        class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
-                        <div class="text-center pt-0">
-                            <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
-                                <small>Naviguez Simplement</small>
-                            </div>
-                            <h5 class="mb-3">Récupérer les adresses qui vous intéressent</h5>
-                            <p>Accédez à une carte vous permettant vous limiter à votre secteur. Nous restons à l'écoute
-                                pour vous fournir de nouveaux moyens de visualiser les données</p>
-                            <!-- <div class="causes-progress bg-light p-3 pt-2">
-                                    <div class="d-flex justify-content-between">
-                                        <p class="text-dark">$10,000 <small class="text-body">Goal</small></p>
-                                        <p class="text-dark">$9,542 <small class="text-body">Raised</small></p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                            <span>90%</span>
-                                        </div>
-                                    </div>
-                                </div> -->
-                        </div>
-                        <div class="position-relative mt-auto">
-                            <img class="img-fluid" src=" img/courses-1.jpg" alt="">
-                            <!-- <div class="causes-overlay">
-                                <a class="btn btn-outline-primary" href="{{ url_for('auth.signup') }}">
-                                    Créer un compte
-                                    <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                        <i class="fa fa-arrow-right"></i>
-                                    </div>
-                                </a>
-                            </div> -->
-                        </div>
-                    </div>
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <h1 class="display-6 text-white mb-5">Obtenez GeomAnnonce dès aujourd'hui</h1>
+                    <p class="text-white mb-0">Nous vous formons gratuitement à l'utilisation de nos outils (1h), sur
+                        réservation par email.</p>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div
-                        class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
-                        <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
-                                <small>Mises à Jours</small>
-                            </div>
-                            <h5 class="mb-3">Des mises à jours régulières</h5>
-                            <p>Des mises à jours mensuelles sont actuellement en place, l'équipe travaille sur des mises
-                                à jours hebdomadaires.</p>
-                            <!-- <div class="causes-progress bg-light p-3 pt-2">
-                                    <div class="d-flex justify-content-between">
-                                        <p class="text-dark">$10,000 <small class="text-body">Goal</small></p>
-                                        <p class="text-dark">$9,542 <small class="text-body">Raised</small></p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                            <span>90%</span>
-                                        </div>
-                                    </div>
-                                </div> -->
-                        </div>
-                        <div class="position-relative mt-auto">
-                            <img class="img-fluid" src=" img/courses-2.jpg" alt="">
-                            <!-- <div class="causes-overlay">
-                                <a class="btn btn-outline-primary" href="{{ url_for('auth.signup') }}">
-                                    Créer un compte
-                                    <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                        <i class="fa fa-arrow-right"></i>
-                                    </div>
-                                </a>
-                            </div> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div
-                        class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
-                        <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
-                                <small>Tarifs</small>
-                            </div>
-                            <h5 class="mb-3">Une tarification simple</h5>
-                            <p>Abonnement unique pour accéder au service et consulter la liste complète des biens.</p>
-                            <!-- <div class="causes-progress bg-light p-3 pt-2">
-                                    <div class="d-flex justify-content-between">
-                                        <p class="text-dark">$10,000 <small class="text-body">Goal</small></p>
-                                        <p class="text-dark">$9,542 <small class="text-body">Raised</small></p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                            <span>90%</span>
-                                        </div>
-                                    </div>
-                                </div> -->
-                        </div>
-                        <div class="position-relative mt-auto">
-                            <img class="img-fluid" src=" img/courses-3.jpg" alt="">
-                            <!-- <div class="causes-overlay">
-                                <a class="btn btn-outline-primary" href="{{ url_for('auth.signup') }}">
-                                    Créer un compte
-                                    <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                        <i class="fa fa-arrow-right"></i>
-                                    </div>
-                                </a>
-                            </div> -->
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="h-100 bg-white p-5">
+                        <div class="row">
+                            <h2 class="text-center mb-4">Contactez nous :</h2>
+                            <a class="btn btn-primary py-2 px-3"
+                                href="mailto:contact@webanimus.com">contact@webanimus.com</a>
+                            <p class="text-center mt-4">Un commercial reviendra vers vous très bientôt.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Causes End -->
+    <!-- Donate End -->
+
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white-50 footer pt-5 mb-0 pb-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5 d-flex justify-content-around">
                 <div class="col-lg-3 col-md-6">
-                    <h1 class="fw-bold text-primary mb-4">Geom<span class="text-white">Alert</span></h1>
-                    <p>Détection de biens à vendre ou à louer</p>
+                    <h1 class="fw-bold text-white mb-4">GeomServices</h1>
+                    <p>Services de prospection immobilière</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square me-1"
                             href="mailto:contact@webanimus.com?subject=Prise de contact GeomAPI"><i
@@ -355,10 +302,10 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Liens</h5>
-                    <a class="btn btn-link" href="#about">À Propos</a>
-                    <a class="btn btn-link" href="#features">Fonctionnalités</a>
+                    <a class="btn btn-link" href="/">Accueil</a>
+                    <!-- <a class="btn btn-link" href="#features">Fonctionnalités</a>
                     <a class="btn btn-link" href="#team">L'Équipe</a>
-                    <a class="btn btn-link" href="#contact">Contact</a>
+                    <a class="btn btn-link" href="#contact">Contact</a> -->
                 </div>
                 <!-- <div class="col-lg-3 col-md-6">
                         <h5 class="text-light mb-4">Newsletter</h5>
@@ -387,7 +334,7 @@
     <!-- Footer End -->
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a> -->
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
